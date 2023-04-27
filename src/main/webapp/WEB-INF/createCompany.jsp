@@ -17,7 +17,6 @@
     name:<input type="text"name="name"><br>
     country:<input type="text"name="country"><br>
     <input type="submit" value="create">
-
 </form>
 </body>
 </html>

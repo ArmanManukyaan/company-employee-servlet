@@ -4,7 +4,6 @@ import com.example.companyemployeeservlet.manager.CompanyManager;
 import com.example.companyemployeeservlet.manager.EmployeeManager;
 import com.example.companyemployeeservlet.model.Company;
 import com.example.companyemployeeservlet.model.Employee;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

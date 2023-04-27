@@ -13,7 +13,6 @@ import java.io.IOException;
 @WebServlet("/updateCompany")
 public class UpdateCompanyServlet extends HttpServlet {
     private CompanyManager companyManager = new CompanyManager();
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = Integer.parseInt(req.getParameter("id"));
@@ -21,7 +20,6 @@ public class UpdateCompanyServlet extends HttpServlet {
         req.setAttribute("company", company);
         req.getRequestDispatcher("WEB-INF/updateCompany.jsp").forward(req, resp);
     }
-
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = Integer.parseInt(req.getParameter("id"));
